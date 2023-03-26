@@ -1,0 +1,93 @@
+.comic {
+    background-color: var(--white);
+    width: 10rem;
+    text-align: center;
+    border-right: 1px var(--white) solid;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    margin: 0 1.5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.comic img {
+    min-width: 100%;
+    height: 50%;
+}
+
+.comic img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.comic .descricao {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: var(--font-montserrat);
+    color: var(--background);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.comic .descricao h4 {
+    font-family: var(--font-montserrat);
+    margin-bottom: 1rem;
+    height: 70%;
+    font-weight: bold;
+    text-transform: lowercase;
+    overflow: hidden;
+    line-height: 1.15rem;
+}
+
+.comic .descricao h4::first-letter {
+    text-transform: uppercase;
+}
+
+.comic .descricao h3 {
+    height: 30%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    color: var(--background);
+}
+
+.comic .btn-action {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.comic .btn-action button {
+    width: 80%;
+    font-family: var(--font-bebas);
+    font-size: 1.5rem;
+    background-color: var(--red);
+    border-radius: 30px;
+    border-color: var(--red);
+    margin-right: 1rem;
+}
+
+.comic .btn-action button:hover {
+    background-color: var(--red-contrast);
+    border-color: var(--red-contrast);
+    cursor: pointer;
+}
+
+.comic .btn-action i {
+    width: 20%;
+    font-size: 2rem;
+    text-align: right;
+    color: var(--red);
+    margin: auto 0;
+}
+
+.comic .btn-action i:hover {
+    color: var(--red-contrast);
+    cursor: pointer;
+}

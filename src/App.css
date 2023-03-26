@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital@0;1&display=swap');
+
+:root {
+  --background: #969494;
+  --red: #851c07;
+  --red-contrast: #0a0606;
+  --white: #FEFEFE;
+  --gray: #0c0606;
+  --font-bebas: 'Bebas Neue', cursive;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+}

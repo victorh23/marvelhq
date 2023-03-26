@@ -1,0 +1,12 @@
+.comicContainer {
+    margin: 4rem;
+    margin-top: 10rem;
+}
+
+.comicContainer .tipe {
+    font-family: var(--font-bebas);
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
